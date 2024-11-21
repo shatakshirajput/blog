@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px;
+    background-color: white; 
+    color: maroon; 
+    border-bottom: 1px solid #ddd;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.add-blog {
+    padding: 10px 15px; 
+    background-color: #0056b3; 
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px; 
+    border: none; 
+    cursor: pointer;
+}
+.add-blog:hover {
+    background-color: #004494; }
+
+#blogContainer {
+    margin-top: 20px; 
+}
+
+.blog {
+    background-color: white; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 15px;
+    margin-bottom: 15px; 
+    transition: box-shadow 0.3s; 
+}
+
+.blog:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.blog h2 {
+    font-size: 20px; 
+    margin: 0 0 10px; 
+    color: maroon;
+}
+.blog p {
+    font-size: 16px; 
+    margin: 0 0 10px; 
+    color: maroon; 
+}
+
+button {
+    padding: 10px 15px; 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+a {
+    text-decoration: none; 
+    color: maroon; 
+    font-weight: bold; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.page-title {
+    text-align: center;
+    font-size: 28px;
+    color: maroon; 
+    margin: 20px 0;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+}
+
+.submit-button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; 
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /
+}
+
+.back-button {
+    background-color: #28a745; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #218838; 
+}
+
+.container {
+    max-width: 500px; 
+    margin: 30px auto; 
+    padding: 20px;
+    background-color:  #ffce84; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
